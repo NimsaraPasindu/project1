@@ -19,3 +19,17 @@ console.log(1+3)*(4-2)
 
 console.log((1+3)*(4-2));
 //8
+function remainder(fn,sn){ 
+    return fn%sn;
+   }
+   
+   console.log(remainder(10,2));
+   //0
+
+  
+
+function printCapitle(city,country) {
+    console.log(city+" is the capital of "+country);
+}
+printCapitle("colombo","sri Lanka");
+//colombo is the capital of sri Lanka
